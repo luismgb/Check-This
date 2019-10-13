@@ -8,19 +8,20 @@ PODS:
   - RealmSwift (3.9.0):
     - Realm (= 3.9.0)
   - SwiftLint (0.27.0)
-  - SwipeCellKit (2.5.0)
+  - SwipeCellKit (2.5.4)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/luismgb/Chameleon.git`)
   - RealmSwift
   - SwiftLint
-  - SwipeCellKit
+  - SwipeCellKit (= 2.5.4)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Realm
     - RealmSwift
     - SwiftLint
+  trunk:
     - SwipeCellKit
 
 EXTERNAL SOURCES:
@@ -37,8 +38,8 @@ SPEC CHECKSUMS:
   Realm: 3d36f208bf3aff8335dc3298742140182bde4edb
   RealmSwift: aa4d11917bfcfaa3ed51f219102a487ecd895447
   SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
-  SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
+  SwipeCellKit: 4eada3884ab1bbae5e8d2fb9030c242aa23d7f42
 
-PODFILE CHECKSUM: d15b15254edb08f6ab6fca6eb0e34b56742c4186
+PODFILE CHECKSUM: 0fe04b5ca63538bf91e84f8c01a4d6fd4efe8362
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.3

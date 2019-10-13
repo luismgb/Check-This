@@ -8,6 +8,6 @@ target 'Check This' do
   # Pods for Check This
   pod 'RealmSwift'
   pod 'SwiftLint'
-  pod 'SwipeCellKit'
+  pod 'SwipeCellKit', '2.5.4'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/luismgb/Chameleon.git'
 end
